@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: rgba(255,193,204,1.00);
+  background-color: #f8f8f8;
+}
+
+/* Navigation Bar */
+header {
+  background-color:rgba(255,193,204,1.00);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color:argba(255,193,204,1.00);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: rgba(255,193,204,1.00);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+	
+  background-color:white
+  color:rgba(248,171,198,1.00);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+
+
+/* Gallery Section */
+#gallery {
+  padding: 2rem;
+  text-align: center;
+}
+
+#gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+	
+	}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.gallery-container img {
+  width: 75%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.5);
+}
+
+
+
+/* Footer */
+footer {
+  background-color:rgba(255,193,204,1.00);
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='1' viewBox='0 0 40 1' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20v1H0z' fill='%23ed89bf' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color: white;
+  text-align:end;
+  padding: 1rem;
+  position:fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 1rem;
+  position: fixed;
+  bottom:0px;
+  height:60px;
+  width:100%;
+}
